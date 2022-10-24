@@ -1,0 +1,51 @@
+const peter = {
+    name: "Peter",
+    age: 50,
+    students: [{
+            name: "Andy",
+            age: 20,
+            exercises: [
+                { score: 60, date: new Date("2018-10-01") }
+            ]
+        },
+        {
+            name: "Bob",
+            age: 23,
+            exercises: [
+                { score: 76, date: new Date("2019-01-05") },
+                { score: 55, date: new Date("2018-11-05") }
+            ]
+        },
+        {
+            name: "Charlie",
+            age: 25,
+            exercises: [
+                { score: 60, date: new Date("2019-01-05") }
+            ]
+        }
+    ]
+}
+
+const exercises = [];
+for (let student of peter.students) {
+    for (let exercise of student.exercises) {
+        exercises.push(exercise);
+    }
+}
+console.log(exercises);
+[
+    { score: 60, date: new Date("2018-10-01") },
+    { score: 76, date: new Date("2019-01-05") },
+    { score: 55, date: new Date("2018-11-05") },
+    { score: 60, date: new Date("2019-01-05") }
+]
+
+// How to add other information put student name into the exercise inside?
+const exercises = [];
+for (let student of peter.students) {
+    for (let exercise of student.exercises) {
+        exercises.push({
+            name: student.name,
+            score: date:
+
+        })

@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(247, 206, 70);
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#header {
+    display: flex;
+}
+
+#logo {
+    height: 100px;
+    width: 50%;
+    display: flex;
+    flex: 1;
+}
+
+#share {
+    margin-top: 100px;
+    justify-content: flex-end;
+    flex-direction: row;
+    /* align-items: right;
+    height: 200px; */
+    width: 50%;
+    display: flex;
+    flex: 1;
+}
+
+.social-media {
+    margin: 5px;
+}

@@ -1,0 +1,108 @@
+.container {
+    /* display: flex; */
+}
+
+.top {
+    border: 1px solid lightgray;
+    border-radius: 15px 15px 0px 0px;
+    padding: 20px;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+}
+
+.scorecard {
+    border: 1px;
+    width: 150px;
+    border-radius: 6px;
+    padding: 10px 5px 10px 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.turn {
+    display: flex;
+    justify-content: center;
+}
+
+.gameboard {
+    border: 1px solid lightgray;
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gameboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 245px;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.box-top {
+    border-top: 1px solid;
+}
+
+.box-right {
+    border-right: 1px solid;
+}
+
+.box-bottom {
+    border-bottom: 1px solid;
+}
+
+.box-left {
+    border-left: 1px solid;
+}
+
+.line-color {
+    color: rgb(6, 83, 83);
+}
+
+.bottom {
+    border: 1px solid lightgray;
+    border-radius: 0px 0px 15px 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.green {
+    color: turquoise
+}
+
+.gray-color {
+    color: gray;
+}
+
+.fa-share-nodes {
+    color: lightskyblue;
+}
+
+.current_underline {
+    border-bottom: 2px solid turquoise;
+    box-shadow: 0px 6px 3px lightgrey;
+}
+
+.next_underline {
+    box-shadow: 0px 3px 1px lightgrey;
+}
+
+.circle {
+    width: 50px;
+}

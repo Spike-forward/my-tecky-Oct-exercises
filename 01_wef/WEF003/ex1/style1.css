@@ -1,0 +1,24 @@
+body {
+    background-color: white;
+    /* align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh; */
+}
+
+.row {
+    display: flex;
+}
+
+.row .box {
+    border: 1px;
+    border-style: solid;
+    border-color: #435aa0;
+    background-color: #dde7fa;
+    padding: 40px;
+    margin: 20px;
+}
+
+.row .box div {
+    font-size: 40px;
+}

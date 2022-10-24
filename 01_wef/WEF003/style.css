@@ -1,0 +1,41 @@
+body {
+    background-color: #000;
+}
+
+#navbar {
+    color: rgb(255, 255, 255)
+}
+
+#navbar li {
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+#navbar ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+}
+
+#slide-1.image-container {
+    margin-left: auto;
+    /*top right bottom left*/
+    margin-right: auto;
+    /* background-image: url(https://www.apple.com/v/home/as/images/heroes/iphone-14-pro
+    ) */
+    height: 80%;
+    width: 80%;
+    background-size: cover;
+    color: rgb(255, 255, 255) text-align: center;
+}
+
+#slide-2 img {
+    width: 100vw
+}
+
+#small-side div @media only screen and (max-width: 768px) {
+    .some-class {
+        width: 100vw;
+    }
+}

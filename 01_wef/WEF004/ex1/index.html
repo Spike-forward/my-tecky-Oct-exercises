@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="heading">
+                <div>
+                    <i class="fa-solid fa-caret-down gray-color"></i>
+                    <span class="gray-color">Medium</span>
+                </div>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+
+            <div class="scoreboard">
+                <div class="scorecard current_underline">
+                    <span class="player">X</span>
+                    <span class="score">-</span>
+                </div>
+                <div class="scorecard next_underline">
+                    <span class="player">O</span>
+                    <span class="score">-</span>
+                </div>
+            </div>
+
+            <div class="turn">
+                <span>X <span class="gray-color">Turn</span></span>
+            </div>
+        </div>
+        <div class="gameboard">
+            <div class="gameboard-container">
+                <div class="box box-right box-bottom line-color">
+                    <img src="./x.svg" />
+                </div>
+                <div class="box box-right box-bottom box-left line-color"></div>
+                onclick="clickFunction();
+                <div class="box box-bottom box-left line-color"></div>
+                <div class="box box-top box-right box-bottom line-color"></div>
+                <div class="box box-left box-right box-top box-bottom line-color"></div>
+                <div class="box box-left box-top box-bottom line-color"></div>
+                <div class="box box-top box-right line-color"></div>
+                <div class="box box-top box-right box-left line-color">
+                    <img src="./circle.svg" class="circle" />
+                </div>
+                <div class="box box-left box-top line-color"></div>
+
+            </div>
+        </div>
+
+        <div class="bottom">
+            <span class="green">RESTART GAME</span>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
